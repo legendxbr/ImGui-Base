@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{fb3d294f-51ec-478e-a627-25831c80fefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4f33ddea-9910-456d-b868-4267eb3c2b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\implementation">
+      <UniqueIdentifier>{981d46bb-2315-449e-bca3-ca979045beb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\main">
+      <UniqueIdentifier>{25afacda-dfab-4c8e-949c-588d9d931a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\device">
+      <UniqueIdentifier>{a7bcf5a1-291a-4928-983d-113b09b64a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\render">
+      <UniqueIdentifier>{bbdd6661-2068-4361-9ef7-316707ee3ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\resources">
+      <UniqueIdentifier>{fb3c7796-e732-47e4-acac-d92a24521be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\resources\image loader">
+      <UniqueIdentifier>{6dce5d10-7850-43ca-a8ad-703d54a0e8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\implementations">
+      <UniqueIdentifier>{fdd87077-eed3-4ba4-b3ee-1cc8eadbe848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\others">
+      <UniqueIdentifier>{68e7fd7e-9116-45aa-9fb9-55d83d0f448b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\encryption">
+      <UniqueIdentifier>{5125d5bf-b820-47b5-9a6a-e7bc79297670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\implementations\json">
+      <UniqueIdentifier>{1655508e-f6bd-49f3-b812-2a28de80f1d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="device\device.hpp">
+      <Filter>sources\device</Filter>
+    </ClInclude>
+    <ClInclude Include="device\window.hpp">
+      <Filter>sources\device</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render.hpp">
+      <Filter>sources\render</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\image loader\imageloader.hpp">
+      <Filter>sources\resources\image loader</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_win32.h">
+      <Filter>imgui\implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption\lazy.hpp">
+      <Filter>sources\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption\xorstr.hpp">
+      <Filter>sources\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="others\others.hpp">
+      <Filter>sources\others</Filter>
+    </ClInclude>
+    <ClInclude Include="implementations\json\json.hpp">
+      <Filter>sources\implementations\json</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_dx11.h">
+      <Filter>imgui\implementation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\image loader\imageloader.cpp">
+      <Filter>sources\resources\image loader</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>imgui\implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui\implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+  </ItemGroup>
+</Project>
